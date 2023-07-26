@@ -1,4 +1,4 @@
-package com.example.privateperiods.Controller;
+package com.privateperiods.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
