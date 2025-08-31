@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.privateperiods"
+    namespace = "com.privateperiods"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.privateperiods"
+        applicationId = "com.privateperiods"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

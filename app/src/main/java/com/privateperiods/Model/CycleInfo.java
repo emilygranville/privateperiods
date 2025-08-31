@@ -1,6 +1,6 @@
 package com.privateperiods.Model;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  * Contains minimal information on a menstrual cycle to display before an entire cycle is loaded
@@ -10,8 +10,8 @@ import java.util.Date;
 public class CycleInfo {
 
     String cycleId;
-    Date startDate;
-    Date endDate;
+    LocalDateTime startDate;
+    LocalDateTime endDate;
     CycleInfo prevCycle;
     CycleInfo nextCycle;
 }

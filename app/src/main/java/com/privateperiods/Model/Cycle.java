@@ -1,6 +1,6 @@
 package com.privateperiods.Model;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -10,8 +10,8 @@ import java.util.List;
  */
 public class Cycle {
     String cycleId;
-    Date startDate;
-    Date endDate;
+    LocalDateTime startDate;
+    LocalDateTime endDate;
     List<String> notes;
     boolean isUsingBirthControl;
     double averagePain;

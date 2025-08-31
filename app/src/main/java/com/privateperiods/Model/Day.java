@@ -1,7 +1,6 @@
 package com.privateperiods.Model;
 
-import java.util.Date;
-import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -10,9 +9,9 @@ import java.util.List;
  * @author Emily
  */
 public class Day {
-    Date date;
+    LocalDateTime date;
     boolean isPeriodDay;
-    Date startTime;
+    LocalDateTime startTime;
     boolean isOvulating;
     int painRating;
     List<String> symptoms;
